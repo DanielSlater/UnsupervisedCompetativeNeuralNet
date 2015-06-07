@@ -41,3 +41,16 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.user
+C#/UnsupervisedCompetativeNeuralNet.Tests/bin/*
+C#/UnsupervisedCompetativeNeuralNet.Tests/obj/*
+*.xml
+C#/UnsupervisedCompetativeNeuralNet.v12.suo
+C#/UnsupervisedCompetativeNeuralNet/bin/*
+C#/UnsupervisedCompetativeNeuralNet/obj/*
+*.suo
+F#/UnsupervisedCompetativeNeuralNet.Tests/bin/*
+F#/UnsupervisedCompetativeNeuralNet.Tests/obj/*
+F#/UnsupervisedCompetativeNeuralNet/bin/*
+F#/UnsupervisedCompetativeNeuralNet/obj/*
+Java/.idea/.name

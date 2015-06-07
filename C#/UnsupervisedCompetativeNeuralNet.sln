@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnsupervisedCompetativeNeuralNet", "UnsupervisedCompetativeNeuralNet\UnsupervisedCompetativeNeuralNet.csproj", "{ADD9F811-2976-4D50-B400-E7A3F4F597E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnsupervisedCompetativeNeuralNet.Tests", "UnsupervisedCompetativeNeuralNet.Tests\UnsupervisedCompetativeNeuralNet.Tests.csproj", "{9E4F9E72-CAF6-46B4-B823-B97C94589C21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADD9F811-2976-4D50-B400-E7A3F4F597E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADD9F811-2976-4D50-B400-E7A3F4F597E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADD9F811-2976-4D50-B400-E7A3F4F597E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADD9F811-2976-4D50-B400-E7A3F4F597E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E4F9E72-CAF6-46B4-B823-B97C94589C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E4F9E72-CAF6-46B4-B823-B97C94589C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E4F9E72-CAF6-46B4-B823-B97C94589C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E4F9E72-CAF6-46B4-B823-B97C94589C21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
