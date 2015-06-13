@@ -75,19 +75,19 @@ namespace UnsupervisedCompetativeNeuralNet.Tests
 
         private static bool TrainOnDataSet(IList<float[]> dataSet, IList<int[]> expectedClusters)
         {
-            var unsupervisedNueralNet = new UnsupervisedCompetativeNeuralNet(dataSet.First().Length,
+            var competativeNeuralNet = new UnsupervisedCompetativeNeuralNet(dataSet.First().Length,
                 expectedClusters.Count(), LearningRate, BiasLearningRate);
             for (var i = 0; i < MaxTries; i++)
             {
-                unsupervisedNueralNet.Train(dataSet);
+                competativeNeuralNet.Train(dataSet);
 
-                if (ValidateClusters(dataSet, expectedClusters, unsupervisedNueralNet))
+                if (ValidateClusters(dataSet, expectedClusters, competativeNeuralNet))
                     return true;
             }
 
             foreach (var item in dataSet)
             {
-                var cluster = unsupervisedNueralNet.GetCluster(item);
+                var cluster = competativeNeuralNet.GetCluster(item);
                 Console.WriteLine("{0} = {1}", item, cluster);
             }
 
@@ -98,7 +98,7 @@ namespace UnsupervisedCompetativeNeuralNet.Tests
         {
             return expectedClusters
                 .All(expectedCluster =>
-                        expectedCluster.Select(x => neuralNet.GetCluster(dataSet[x])).GroupBy(x => x).Count() == 1);
+                        expectedCluster.GroupBy(x => neuralNet.GetCluster(dataSet[x])).Count() == 1);
         }
     }
 }

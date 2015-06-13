@@ -53,4 +53,12 @@ F#/UnsupervisedCompetativeNeuralNet.Tests/bin/*
 F#/UnsupervisedCompetativeNeuralNet.Tests/obj/*
 F#/UnsupervisedCompetativeNeuralNet/bin/*
 F#/UnsupervisedCompetativeNeuralNet/obj/*
+Java/.idea/*
 Java/.idea/.name
+Java/target/*
+*.pyc
+*.class
+Python/.idea/.name
+Python/.idea/CompetativeLearningNN.iml
+*.iml
+Java/Java.iml
